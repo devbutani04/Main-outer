@@ -1,11 +1,11 @@
 {
     "repository": "#",
     "license": "UNLICENSED",
-    "scripts": {
-        "start": "node server/index.ts",
-        "build": "webpack --config ./bundler/webpack.prod.js",
-        "dev": "webpack serve --config ./bundler/webpack.dev.js"
-    },
+"scripts": {
+    "start": "node server/index.ts",
+    "build": "webpack --config ./bundler/webpack.prod.js",
+    "dev": "concurrently \"webpack serve --config ./bundler/webpack.dev.js\" \"node src/contactHandler.js\""
+},
     "dependencies": {
         "@babel/core": "^7.16.12",
         "@babel/preset-env": "^7.16.11",
