@@ -169,7 +169,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                             </div>
                         </div>
                         <div style={styles.headerInfo}>
-{/*                             <p>Released: 02/02/2021</p> */}
+
                             <p>Quillix Solutions: Delivering comprehensive IT services and innovative solutions, empowering businesses with cutting-edge technology and expert support to thrive in the digital age.</p>
                         </div>
                     </div>
