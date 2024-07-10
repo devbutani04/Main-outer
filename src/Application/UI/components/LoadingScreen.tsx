@@ -174,11 +174,10 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                         </div>
                     </div>
                     <div style={styles.body} className="loading-screen-body">
-{/*                         <p>QS S13 2021 Special UC131S</p> */}
+
                         <div style={styles.spacer} />
                         {showBiosInfo && (
                             <>
-{/*                                 <p>QS Showcase(tm) XX 113</p> */}
                                 <p>Checking RAM : {14000} OK</p>
                                 <div style={styles.spacer} />
                                 <div style={styles.spacer} />
@@ -243,14 +242,7 @@ const LoadingScreen: React.FC<LoadingProps> = () => {
                     {mobileWarning && (
                         <>
                             <br />
-{/*                             <b>
-                                <p style={styles.warning}>
-                                    WARNING: This experience is best viewed on
-                                </p>
-                                <p style={styles.warning}>
-                                    a desktop or laptop computer.
-                                </p>
-                            </b> */}
+
                             <br />
                         </>
                     )}
